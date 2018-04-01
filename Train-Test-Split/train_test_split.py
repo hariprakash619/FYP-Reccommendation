@@ -65,9 +65,9 @@ df_train.to_csv('/users/manasakumar/Desktop/ml-1m/train.csv')
 df_test.to_csv('/users/manasakumar/Desktop/ml-1m/test.csv')
 
 
-df_train.columns = ['not_req', 'movie_id', 'genres_list', 'user_id']
+df_train.columns = ['not_req', 'movie_id', 'user_id', 'genres_list']
 df_train.to_csv('/users/manasakumar/Desktop/ml-1m/train.csv')
-df_test.columns = ['not_req', 'movie_id', 'genres_list', 'user_id']
+df_test.columns = ['not_req', 'movie_id', 'user_id', 'genres_list']
 df_test.to_csv('/users/manasakumar/Desktop/ml-1m/test.csv')
 
 
